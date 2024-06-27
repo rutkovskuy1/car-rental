@@ -12,3 +12,6 @@ Database Schema
 The database consists of several tables, with the main table
 being cars. Below is a brief description of the structure:
 
+Database Schema
+The database consists of several tables, with the main table being cars. 
+Below is a brief description of the structure:
