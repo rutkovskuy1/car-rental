@@ -15,3 +15,14 @@ being cars. Below is a brief description of the structure:
 Database Schema
 The database consists of several tables, with the main table being cars. 
 Below is a brief description of the structure:
+Database Schema
+The database consists of several tables, with the main table being cars. Below is a brief description of the structure:
+
+cars:
+id: Primary key, auto-incremented.
+brand: The brand of the car (e.g., Toyota, BMW).
+model: The model of the car.
+year: The manufacturing year of the car.
+price: The price of the car.
+color: The color of the car.
+mileage: The mileage of the car.
