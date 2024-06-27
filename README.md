@@ -7,7 +7,6 @@ Database Configuration
 Host: localhost
 User: root
 Port: 3307
-Password: root123
 Database Name: car_dealership
 Database Schema
 The database consists of several tables, with the main table
