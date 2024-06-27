@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+    overflow-x: hidden;
+
+}
+
+.backround_car {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.navigation a {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.navigation :hover{
+    color: #FF7B01;
+}
+
+.header_list {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    padding-top: 74px;
+    padding-left: 160px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_text {
+    position: relative;
+    z-index: 2;
+}
+
+.title_one{
+    font-size: 80px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-left: 155px;
+}
+
+.title_two{
+    font-size: 80px;
+    font-family: Montserrat;
+    color: #FF7B01;
+    font-weight: 800;   
+    padding-left: 155px;
+}
+
+.subplot{
+    font-size: 25px;
+    font-family: Montserrat;
+    color: #B8B8B8;
+    font-weight: 400;  
+    padding-top: 10px; 
+    padding-left: 155px;
+}
+
+.square_button{
+    width: 235px;
+    height: 70px;
+    margin-top: 120px;
+    margin-left: 156px;
+    border-radius: 30px;
+    background-color: #FF7B01;
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 78px; 
+}
+
+.square_button a{
+    color: #ffffff;
+}
+
+.two_block{
+    width: 100%;
+    height:1050px;
+    background-color: #343434;
+}
+
+.how_it_works{
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buying{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #B8B8B8;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+    gap: 200px; /* Відстань між елементами */
+    margin-top: 110px;
+}
+
+.step_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.step_one {
+    width: 151px;
+    height: 141px;
+    border-radius: 25px;
+    background-color: #FF7B01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Відстань між іконкою та текстом */
+}
+
+.icon1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.car_selection {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 10px; /* Відстань між заголовком та текстом */
+}
+
+.car_text_two {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.square_button_two{
+    width: 270px;
+    height: 78px;
+    margin-top: 160px;
+    margin-left: 620px;
+    border-radius: 30px;
+    background-color: #FF7B01;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 78px; 
+}
+
+.trendy_cars{
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestions{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #B8B8B8;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_three{
+    height: 1000px;
+}
+
+.car {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+    gap: 95px; /* Відстань між елементами */
+    margin-top: 110px;
+}
+
+.range_rover {
+    position: absolute;
+    margin-left: -400px;
+}
+
+.button_range{
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.porshe{
+    position: absolute;
+    margin-left: -410px;
+    padding-top: 50px;
+}
+
+.bmw{
+    position: absolute;
+    margin-left: -410px;
+    padding-top: 20px;
+}
+
+.square_button_three{
+    width: 270px;
+    height: 78px;
+    margin-top: 140px;
+    margin-left: 620px;
+    border-radius: 30px;
+    background-color: #FF7B01;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 78px; 
+}
+
+
+.block_four{
+    background-color: #343434;
+    height: 950px;
+}
+
+.our_customers{
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #B8B8B8;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewss{
+    width: 1220px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.footer {
+    clear: both; /* Забороняє елементам з плаваючим вирівнюванням контактувати з .footer */
+}
+
+.screan {
+    background-color: #222222;
+    height: 350px;
+}
+
+.information {
+    font-family: Montserrat;
+    font-weight:300;
+    color: #ffffff;
+}
+
+.footer_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_list {
+    display: flex;
+    gap: 325px;
+    font-size: 18px;
+    padding-top: 80px;
+    margin-left: 155px;
+}
+
+.footer_list li a {
+    color: #ffffff; /* Задаємо колір тексту посилань */
+}
+
+.about_us, 
+.more_information,
+.contact {
+    margin-top: 20px;
+    font-size:16px;
+    line-height: 30px;
+}
+
